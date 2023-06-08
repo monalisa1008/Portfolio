@@ -1,0 +1,14 @@
+#hour
+#minute
+#second{
+    background:red;
+    position: absolute;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 10px;
+    height: 20 px;
+    top: 25%;
+    left: 50%;
+}

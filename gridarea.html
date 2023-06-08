@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .grid{
+            display:grid;
+            grid-template-columns: auto auto auto auto ;
+            border: black 2px solid; 
+            background-color:aliceblue;
+            box-shadow:.3px 7px 7px 0px rosybrown;;  
+        }
+        .box1{
+           border: 2px black solid;
+           margin: 10px;
+           background-color:brown;
+           grid-column: 1/5;
+        }
+        .box2{
+           border: 2px black solid;
+           margin: 10px;
+           background-color:violet;
+           grid-column: 1/3;
+           
+        }.box3{
+           border: 2px black solid;
+           margin: 10px;
+           background-color:red;
+           grid-column: 3/5;
+           
+        }.box4{
+           border: 2px black solid;
+           margin: 10px;
+         
+           background-color:blue;
+           
+           grid-area: 1/2/3/4;
+
+        }.box5{
+           border: 2px black solid;
+           margin: 10px;
+           height: 100px;
+           background-color:green;
+           grid-column: 3/5;
+           
+        }.box6{
+           border: 2px black solid;
+           margin: 10px;
+           height: 100px;
+           background-color:yellow;
+           grid-column: 1/5
+           
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+        <div class="box5">5</div>
+        <div class="box6">6</div>
+        
+    </div>
+</body>
+</html>

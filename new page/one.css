@@ -1,0 +1,22 @@
+
+body {
+margin: 100px auto;
+}
+
+.main{
+        background-color:violet;
+        width: 500px;
+        height: 200px;
+        border-radius: 20px;
+        margin: 50px;
+    }
+
+    .header{
+        width: 900px;
+        height: 100px;
+        border: solid 2px plum; 
+        position: relative;
+        top: 20px;
+        border-radius: 20px;
+     }
+    
